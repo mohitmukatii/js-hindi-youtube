@@ -15,7 +15,8 @@ let isLoggedin = false
 
 
 // number => 2 to power 53
-// bigint 
+// bigint basics/o2_dataTypes/js
+
 // string => ""
 // boolean => true/false
 // null => stand value 
