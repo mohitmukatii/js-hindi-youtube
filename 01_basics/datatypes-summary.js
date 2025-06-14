@@ -34,3 +34,29 @@ const myFunction = function(){
 
 
 // https://262.ecma-international.org/5.1/#sec-11.4.3
+
+
+
+// +++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+
+// two types of memory :
+
+// stack(primitive) , heap(non primitive)
+
+let myYouTubeName = "mohitmukatidotcom"
+anotherName = "mazdoormodi"
+
+console.log(myYouTubeName);
+console.log(anotherName);
+
+let userOne = {
+    email : "user@google.com",
+    upi : "user@dbl"
+}
+
+let userTwo = userOne
+
+userTwo.email = "mohit@google.com"
+
+console.log(userOne.email);
+console.log(userTwo.email);
