@@ -5,7 +5,6 @@ marvel_heroes.push(dc_heroes)
 
 console.log(marvel_heroes);
 
-console.log(marvel_heroes);
 console.log(marvel_heroes[3][1]);
 
 const allHeroes = marvel_heroes.concat(dc_heroes);
